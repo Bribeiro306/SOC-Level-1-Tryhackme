@@ -74,6 +74,6 @@ ponto, o atacante teria duas opções:
 - Voltar, realizar mais pesquisas, treinamentos e reconfigurar suas ferramentas personalizadas;
 - Desistir e procurar outro alvo.
 
-## Cyber kill chain 
+## Diamon Model 
 
 ### 
