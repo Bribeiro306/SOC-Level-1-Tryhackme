@@ -75,5 +75,69 @@ ponto, o atacante teria duas opções:
 - Desistir e procurar outro alvo.
 
 ## Diamon Model 
+Diamond Model (Modelo Diamante)
+
+É uma estrutura de análise de ameaças cibernéticas que mapeia ataques em quatro componentes interligados, formando um "diamante". Seu objetivo é entender relações e padrões entre elementos de um ataque, facilitando a resposta a incidentes e a inteligência de ameaças.
+
+### Adversary
+
+Entidade responsável pelo ataque (indivíduo, grupo, organização ou até mesmo um Estado-nação).
+
+* Tipos comuns:
+
+  - APTs (Advanced Persistent Threats): Grupos sofisticados e persistentes (ex: APT29, Lazarus Group).
+
+  -  Script Kiddies: Atacantes com pouca técnica, usando ferramentas pré-fabricadas.
+
+-  Insiders: Funcionários mal-intencionados ou comprometidos.
+
+
+### Capability
+
+Habilidades, técnicas e recursos técnicos usados pelo adversário para realizar o ataque.
+
+Detalhes:
+
+* TTPs (Táticas, Técnicas e Procedimentos):
+
+- Táticas: Objetivos de alto nível (ex: acesso inicial, exfiltração de dados).
+
+- Técnicas: Métodos específicos (ex: phishing, exploração de CVE-2023-XXXX).
+
+-  Procedimentos: Implementação prática (ex: uso do Mimikatz para extrair credenciais).
+
+ Ferramentas: Malware (ex: Emotet), exploits, kits de exploração.
+
+   * Evolução: Capacidades podem ser aprimoradas ou adaptadas (ex: uso de IA para phishing mais convincente).
+
+### Infrastructure
+
+Recursos técnicos que sustentam o ataque, permitindo sua operacionalização.
+
+* Elementos-chave:
+
+   - Domínios/IPs maliciosos: Servidores de comando e controle (C2), sites de phishing.
+
+    - Certificados SSL falsos: Para disfarçar tráfego malicioso.
+
+   * Importância: Bloquear infraestrutura pode interromper ataques em andamento.
+
+
+### Victim
+
+Alvo do ataque, seja uma organização, sistema ou indivíduo.
+
+* Resposta: Análise de logs, identificação de IOCs (Indicadores de Comprometimento).
+
+
+   - Conexões: Cada componente interage com os outros (ex: o Adversário usa sua Capacidade via Infraestrutura para atingir a Vítima).
+
+    * Meta-Features (Contexto Adicional):
+
+        - Timestamp: Data/hora do ataque.
+
+        - Fase do Ataque: Reconhecimento, exploração, exfiltração.
+
+       -  Resultado: Sucesso, falha parcial, detecção.
 
 ### 
