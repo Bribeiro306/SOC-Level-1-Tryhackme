@@ -140,4 +140,21 @@ Alvo do ataque, seja uma organização, sistema ou indivíduo.
 
        -  Resultado: Sucesso, falha parcial, detecção.
 
-### 
+## Summit 
+
+sala Summit do TryHackMe, um desafio imersivo que simula um cenário realista de engenharia de detecção e resposta proativa a ameaças!
+
+🔍 Contexto do Cenário:
+
+A empresa fictícia PicoSecure, após diversos incidentes de segurança, decidiu reforçar sua defesa com uma simulação de ameaças em equipe roxa (purple team). Neste exercício iterativo, atuei como Cyber Defender, colaborando com um pentester externo (Sphinx) que tentava executar malware em uma estação de trabalho interna. Meu objetivo: detectar e bloquear as atividades maliciosas em tempo real, enquanto o adversário evoluía suas táticas!
+
+1️⃣ Detectar ataques em tempo real de um pentester (Sphinx), usando logs de rede, registros do Windows e artefatos de malware.
+2️⃣ Aplicar a Pirâmide da Dor para aumentar o custo operacional do adversário, até ele desistir!
+
+
+
+
+
+
+
+
